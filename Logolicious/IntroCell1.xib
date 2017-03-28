@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="IntroCell1" id="gTV-IL-0wX" customClass="IntroCell1" customModule="Logolicious" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01-start" translatesAutoresizingMaskIntoConstraints="NO" id="9Fe-Jh-qUn"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A82-Ly-F9h">
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OK" translatesAutoresizingMaskIntoConstraints="NO" id="84o-OS-n3f"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1c-AW-QUM">
+                                <connections>
+                                    <action selector="okayTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Zoh-DU-OB1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="84o-OS-n3f" secondAttribute="trailing" id="28b-M8-0tn"/>
+                            <constraint firstItem="84o-OS-n3f" firstAttribute="leading" secondItem="A82-Ly-F9h" secondAttribute="leading" id="7e9-kg-r92"/>
+                            <constraint firstAttribute="width" constant="50" id="HHJ-5S-Glt"/>
+                            <constraint firstAttribute="bottom" secondItem="84o-OS-n3f" secondAttribute="bottom" id="PdO-w4-cPO"/>
+                            <constraint firstAttribute="trailing" secondItem="K1c-AW-QUM" secondAttribute="trailing" id="WBu-kK-hxt"/>
+                            <constraint firstAttribute="bottom" secondItem="K1c-AW-QUM" secondAttribute="bottom" id="b0g-14-NVM"/>
+                            <constraint firstItem="K1c-AW-QUM" firstAttribute="top" secondItem="A82-Ly-F9h" secondAttribute="top" id="cL1-JF-3ru"/>
+                            <constraint firstItem="84o-OS-n3f" firstAttribute="top" secondItem="A82-Ly-F9h" secondAttribute="top" id="gGS-i2-dsV"/>
+                            <constraint firstAttribute="height" constant="50" id="gmF-8l-Ypg"/>
+                            <constraint firstItem="K1c-AW-QUM" firstAttribute="leading" secondItem="A82-Ly-F9h" secondAttribute="leading" id="vEx-Yv-RxT"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ek8-Zr-Plh">
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RNg-Q0-1Wd">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Skip" translatesAutoresizingMaskIntoConstraints="NO" id="ZHn-6O-J0O"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3i-1f-wnC">
+                                        <connections>
+                                            <action selector="skipTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Kd6-0q-jx6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="9YE-Ob-0fw"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZHn-6O-J0O" secondAttribute="bottom" id="AwI-Lb-nCa"/>
+                                    <constraint firstItem="ZHn-6O-J0O" firstAttribute="leading" secondItem="RNg-Q0-1Wd" secondAttribute="leading" id="MWz-02-7Of"/>
+                                    <constraint firstItem="R3i-1f-wnC" firstAttribute="top" secondItem="RNg-Q0-1Wd" secondAttribute="top" id="RJ0-Ft-vvB"/>
+                                    <constraint firstAttribute="bottom" secondItem="R3i-1f-wnC" secondAttribute="bottom" id="cj1-gQ-WjU"/>
+                                    <constraint firstItem="ZHn-6O-J0O" firstAttribute="top" secondItem="RNg-Q0-1Wd" secondAttribute="top" id="iWZ-sF-UPj"/>
+                                    <constraint firstItem="R3i-1f-wnC" firstAttribute="leading" secondItem="RNg-Q0-1Wd" secondAttribute="leading" id="iua-Mf-etV"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZHn-6O-J0O" secondAttribute="trailing" id="kIR-cT-Vdi"/>
+                                    <constraint firstAttribute="height" constant="30" id="tf6-Gs-rZS"/>
+                                    <constraint firstAttribute="trailing" secondItem="R3i-1f-wnC" secondAttribute="trailing" id="vd5-uz-VlY"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbJ-Ld-oYS">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="aHW-jF-1rx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <inset key="titleEdgeInsets" minX="3" minY="0.0" maxX="-3" maxY="0.0"/>
+                                <state key="normal" title="Don't ask me again" image="checkbox_blue_unselected"/>
+                                <state key="selected" image="checkbox_blue_selected"/>
+                                <connections>
+                                    <action selector="askmeTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="aRX-1z-s6y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RNg-Q0-1Wd" firstAttribute="leading" secondItem="Ek8-Zr-Plh" secondAttribute="leading" id="Rpn-V9-Sti"/>
+                            <constraint firstItem="RNg-Q0-1Wd" firstAttribute="centerY" secondItem="Ek8-Zr-Plh" secondAttribute="centerY" id="eLe-0A-ier"/>
+                            <constraint firstAttribute="trailing" secondItem="CbJ-Ld-oYS" secondAttribute="trailing" id="giA-XS-7b4"/>
+                            <constraint firstAttribute="height" constant="30" id="if6-Nl-El2"/>
+                            <constraint firstItem="CbJ-Ld-oYS" firstAttribute="leading" secondItem="RNg-Q0-1Wd" secondAttribute="trailing" constant="8" id="mDr-ov-39j"/>
+                            <constraint firstItem="CbJ-Ld-oYS" firstAttribute="centerY" secondItem="Ek8-Zr-Plh" secondAttribute="centerY" id="mFN-q5-IdD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.031372549020000001" green="0.46666666670000001" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="9Fe-Jh-qUn" secondAttribute="bottom" id="0MB-Mc-2iM"/>
+                <constraint firstAttribute="trailing" secondItem="9Fe-Jh-qUn" secondAttribute="trailing" id="1x3-Vz-f2p"/>
+                <constraint firstAttribute="bottom" secondItem="A82-Ly-F9h" secondAttribute="bottom" constant="112" id="N84-Qh-B0N"/>
+                <constraint firstItem="9Fe-Jh-qUn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="eya-ik-hfO"/>
+                <constraint firstItem="Ek8-Zr-Plh" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="i38-TT-Nc2"/>
+                <constraint firstItem="Ek8-Zr-Plh" firstAttribute="top" secondItem="A82-Ly-F9h" secondAttribute="bottom" constant="8" id="lBS-wG-wRQ"/>
+                <constraint firstItem="9Fe-Jh-qUn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rt4-ej-w8M"/>
+                <constraint firstItem="A82-Ly-F9h" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="zTK-NQ-HUA"/>
+            </constraints>
+            <connections>
+                <outlet property="askmeButton" destination="CbJ-Ld-oYS" id="223-ev-CZF"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="01-start" width="657" height="1127"/>
+        <image name="OK" width="87" height="87"/>
+        <image name="Skip" width="87" height="87"/>
+        <image name="checkbox_blue_selected" width="20" height="20"/>
+        <image name="checkbox_blue_unselected" width="20" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		950914371DDBC6F50056CBBD /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 950914341DDBC6F50056CBBD /* ASValuePopUpView.m */; };
+		950914381DDBC6F50056CBBD /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 950914361DDBC6F50056CBBD /* ASValueTrackingSlider.m */; };
+		9509143A1DDBD2910056CBBD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950914391DDBD2910056CBBD /* UIColorExtension.swift */; };
+		951922E01DDB332D00D0363C /* MyTemplatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951922DE1DDB332D00D0363C /* MyTemplatesViewController.swift */; };
+		951922E11DDB332D00D0363C /* MyTemplatesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951922DF1DDB332D00D0363C /* MyTemplatesViewController.xib */; };
+		951922E41DDB34F600D0363C /* MyTemplatesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951922E21DDB34F600D0363C /* MyTemplatesCell.swift */; };
+		951922E51DDB34F600D0363C /* MyTemplatesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951922E31DDB34F600D0363C /* MyTemplatesCell.xib */; };
+		951DEFD41DF6F28800AF4C3F /* IntroCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951DEFD21DF6F28800AF4C3F /* IntroCell1.swift */; };
+		951DEFD51DF6F28800AF4C3F /* IntroCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951DEFD31DF6F28800AF4C3F /* IntroCell1.xib */; };
+		951DEFD81DF6FC1200AF4C3F /* IntroCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951DEFD61DF6FC1200AF4C3F /* IntroCell2.swift */; };
+		951DEFD91DF6FC1200AF4C3F /* IntroCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951DEFD71DF6FC1200AF4C3F /* IntroCell2.xib */; };
+		951DEFDC1DF6FD9E00AF4C3F /* IntroCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951DEFDA1DF6FD9E00AF4C3F /* IntroCell3.swift */; };
+		951DEFDD1DF6FD9E00AF4C3F /* IntroCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951DEFDB1DF6FD9E00AF4C3F /* IntroCell3.xib */; };
+		951DEFE01DF6FF6D00AF4C3F /* IntroCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951DEFDE1DF6FF6D00AF4C3F /* IntroCell4.swift */; };
+		951DEFE11DF6FF6D00AF4C3F /* IntroCell4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951DEFDF1DF6FF6D00AF4C3F /* IntroCell4.xib */; };
+		951DEFE31DF7036500AF4C3F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951DEFE21DF7036500AF4C3F /* MainViewController.swift */; };
+		953471121DCA0E6400D25EFD /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953471101DCA0E6400D25EFD /* ColorPickerViewController.swift */; };
+		953471131DCA0E6400D25EFD /* ColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 953471111DCA0E6400D25EFD /* ColorPickerViewController.xib */; };
+		9586775E1E0AB24E00080774 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586775D1E0AB24E00080774 /* CropViewController.swift */; };
+		958677601E0AF10000080774 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586775F1E0AF10000080774 /* SettingsViewController.swift */; };
+		959DF9B01DDB0514004209F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959DF9AF1DDB0514004209F8 /* CoreData.framework */; };
+		95C7479C1DBB5D930031A9C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7479B1DBB5D930031A9C9 /* AppDelegate.swift */; };
+		95C7479E1DBB5D930031A9C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7479D1DBB5D930031A9C9 /* ViewController.swift */; };
+		95C747A11DBB5D930031A9C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C7479F1DBB5D930031A9C9 /* Main.storyboard */; };
+		95C747A31DBB5D930031A9C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C747A21DBB5D930031A9C9 /* Assets.xcassets */; };
+		95C747A61DBB5D930031A9C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C747A41DBB5D930031A9C9 /* LaunchScreen.storyboard */; };
+		95D8A9791DD70E76005B3E58 /* LogoLicious.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95D8A9771DD70E76005B3E58 /* LogoLicious.xcdatamodeld */; };
+		95E75D281DC1EE7000A1ADCC /* OverlayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E75D271DC1EE7000A1ADCC /* OverlayImageView.swift */; };
+		95E75D2A1DC20D2400A1ADCC /* OverlayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E75D291DC20D2400A1ADCC /* OverlayLabel.swift */; };
+		95E75D2C1DC241C100A1ADCC /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E75D2B1DC241C100A1ADCC /* TextViewController.swift */; };
+		95E75D691DC24A3700A1ADCC /* Ansley Display-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D561DC24A3700A1ADCC /* Ansley Display-Light.ttf */; };
+		95E75D6A1DC24A3700A1ADCC /* Ansley Display-Outline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D571DC24A3700A1ADCC /* Ansley Display-Outline.ttf */; };
+		95E75D6B1DC24A3700A1ADCC /* Ansley Display-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D581DC24A3700A1ADCC /* Ansley Display-Regular.ttf */; };
+		95E75D6C1DC24A3700A1ADCC /* Cornerstone.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D591DC24A3700A1ADCC /* Cornerstone.ttf */; };
+		95E75D6D1DC24A3700A1ADCC /* Display.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D5A1DC24A3700A1ADCC /* Display.ttf */; };
+		95E75D6E1DC24A3800A1ADCC /* Hamurz Free Version.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D5B1DC24A3700A1ADCC /* Hamurz Free Version.ttf */; };
+		95E75D6F1DC24A3800A1ADCC /* Idolwild.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D5C1DC24A3700A1ADCC /* Idolwild.ttf */; };
+		95E75D701DC24A3800A1ADCC /* Lulo Clean 1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D5D1DC24A3700A1ADCC /* Lulo Clean 1.ttf */; };
+		95E75D711DC24A3800A1ADCC /* Manteka.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D5E1DC24A3700A1ADCC /* Manteka.ttf */; };
+		95E75D721DC24A3800A1ADCC /* Mosk Semi-Bold 600.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D5F1DC24A3700A1ADCC /* Mosk Semi-Bold 600.ttf */; };
+		95E75D731DC24A3800A1ADCC /* Mosk Thin 100.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D601DC24A3700A1ADCC /* Mosk Thin 100.ttf */; };
+		95E75D741DC24A3800A1ADCC /* Mosk Ultra-Bold 900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D611DC24A3700A1ADCC /* Mosk Ultra-Bold 900.ttf */; };
+		95E75D751DC24A3800A1ADCC /* Nexa Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D621DC24A3700A1ADCC /* Nexa Bold.otf */; };
+		95E75D761DC24A3800A1ADCC /* Nexa Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D631DC24A3700A1ADCC /* Nexa Light.otf */; };
+		95E75D771DC24A3800A1ADCC /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D641DC24A3700A1ADCC /* Oswald-Bold.ttf */; };
+		95E75D781DC24A3800A1ADCC /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D651DC24A3700A1ADCC /* Oswald-ExtraLight.ttf */; };
+		95E75D791DC24A3800A1ADCC /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D661DC24A3700A1ADCC /* Oswald-Regular.ttf */; };
+		95E75D7A1DC24A3800A1ADCC /* Sign-handwriting.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D671DC24A3700A1ADCC /* Sign-handwriting.ttf */; };
+		95E75D7B1DC24A3800A1ADCC /* Variane Script.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E75D681DC24A3700A1ADCC /* Variane Script.ttf */; };
+		95FB0AD41DF705B300E93446 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FB0AD31DF705B300E93446 /* IntroViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		950914321DDBC6F50056CBBD /* Logolicious-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Logolicious-Bridging-Header.h"; sourceTree = "<group>"; };
+		950914331DDBC6F50056CBBD /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		950914341DDBC6F50056CBBD /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		950914351DDBC6F50056CBBD /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		950914361DDBC6F50056CBBD /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		950914391DDBD2910056CBBD /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		951922DE1DDB332D00D0363C /* MyTemplatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTemplatesViewController.swift; sourceTree = "<group>"; };
+		951922DF1DDB332D00D0363C /* MyTemplatesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTemplatesViewController.xib; sourceTree = "<group>"; };
+		951922E21DDB34F600D0363C /* MyTemplatesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTemplatesCell.swift; sourceTree = "<group>"; };
+		951922E31DDB34F600D0363C /* MyTemplatesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTemplatesCell.xib; sourceTree = "<group>"; };
+		951DEFD21DF6F28800AF4C3F /* IntroCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroCell1.swift; sourceTree = "<group>"; };
+		951DEFD31DF6F28800AF4C3F /* IntroCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroCell1.xib; sourceTree = "<group>"; };
+		951DEFD61DF6FC1200AF4C3F /* IntroCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroCell2.swift; sourceTree = "<group>"; };
+		951DEFD71DF6FC1200AF4C3F /* IntroCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroCell2.xib; sourceTree = "<group>"; };
+		951DEFDA1DF6FD9E00AF4C3F /* IntroCell3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroCell3.swift; sourceTree = "<group>"; };
+		951DEFDB1DF6FD9E00AF4C3F /* IntroCell3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroCell3.xib; sourceTree = "<group>"; };
+		951DEFDE1DF6FF6D00AF4C3F /* IntroCell4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroCell4.swift; sourceTree = "<group>"; };
+		951DEFDF1DF6FF6D00AF4C3F /* IntroCell4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroCell4.xib; sourceTree = "<group>"; };
+		951DEFE21DF7036500AF4C3F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		953471101DCA0E6400D25EFD /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		953471111DCA0E6400D25EFD /* ColorPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorPickerViewController.xib; sourceTree = "<group>"; };
+		9586775D1E0AB24E00080774 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		9586775F1E0AF10000080774 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		959DF9AF1DDB0514004209F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		95C747981DBB5D930031A9C9 /* Logolicious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Logolicious.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C7479B1DBB5D930031A9C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95C7479D1DBB5D930031A9C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95C747A01DBB5D930031A9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95C747A21DBB5D930031A9C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95C747A51DBB5D930031A9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95C747A71DBB5D930031A9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D8A9781DD70E76005B3E58 /* LogoLicious.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LogoLicious.xcdatamodel; sourceTree = "<group>"; };
+		95E75D271DC1EE7000A1ADCC /* OverlayImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayImageView.swift; sourceTree = "<group>"; };
+		95E75D291DC20D2400A1ADCC /* OverlayLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayLabel.swift; sourceTree = "<group>"; };
+		95E75D2B1DC241C100A1ADCC /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		95E75D561DC24A3700A1ADCC /* Ansley Display-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ansley Display-Light.ttf"; sourceTree = "<group>"; };
+		95E75D571DC24A3700A1ADCC /* Ansley Display-Outline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ansley Display-Outline.ttf"; sourceTree = "<group>"; };
+		95E75D581DC24A3700A1ADCC /* Ansley Display-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ansley Display-Regular.ttf"; sourceTree = "<group>"; };
+		95E75D591DC24A3700A1ADCC /* Cornerstone.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cornerstone.ttf; sourceTree = "<group>"; };
+		95E75D5A1DC24A3700A1ADCC /* Display.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Display.ttf; sourceTree = "<group>"; };
+		95E75D5B1DC24A3700A1ADCC /* Hamurz Free Version.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hamurz Free Version.ttf"; sourceTree = "<group>"; };
+		95E75D5C1DC24A3700A1ADCC /* Idolwild.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Idolwild.ttf; sourceTree = "<group>"; };
+		95E75D5D1DC24A3700A1ADCC /* Lulo Clean 1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lulo Clean 1.ttf"; sourceTree = "<group>"; };
+		95E75D5E1DC24A3700A1ADCC /* Manteka.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Manteka.ttf; sourceTree = "<group>"; };
+		95E75D5F1DC24A3700A1ADCC /* Mosk Semi-Bold 600.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mosk Semi-Bold 600.ttf"; sourceTree = "<group>"; };
+		95E75D601DC24A3700A1ADCC /* Mosk Thin 100.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mosk Thin 100.ttf"; sourceTree = "<group>"; };
+		95E75D611DC24A3700A1ADCC /* Mosk Ultra-Bold 900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mosk Ultra-Bold 900.ttf"; sourceTree = "<group>"; };
+		95E75D621DC24A3700A1ADCC /* Nexa Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa Bold.otf"; sourceTree = "<group>"; };
+		95E75D631DC24A3700A1ADCC /* Nexa Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa Light.otf"; sourceTree = "<group>"; };
+		95E75D641DC24A3700A1ADCC /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		95E75D651DC24A3700A1ADCC /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
+		95E75D661DC24A3700A1ADCC /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		95E75D671DC24A3700A1ADCC /* Sign-handwriting.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sign-handwriting.ttf"; sourceTree = "<group>"; };
+		95E75D681DC24A3700A1ADCC /* Variane Script.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Variane Script.ttf"; sourceTree = "<group>"; };
+		95FB0AD31DF705B300E93446 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95C747951DBB5D920031A9C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959DF9B01DDB0514004209F8 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		950914311DDBC6E40056CBBD /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				950914331DDBC6F50056CBBD /* ASValuePopUpView.h */,
+				950914341DDBC6F50056CBBD /* ASValuePopUpView.m */,
+				950914351DDBC6F50056CBBD /* ASValueTrackingSlider.h */,
+				950914361DDBC6F50056CBBD /* ASValueTrackingSlider.m */,
+				950914321DDBC6F50056CBBD /* Logolicious-Bridging-Header.h */,
+			);
+			name = Slider;
+			sourceTree = "<group>";
+		};
+		951DEFD01DF6F25700AF4C3F /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				951DEFD11DF6F26900AF4C3F /* Intro Cells */,
+				951DEFE21DF7036500AF4C3F /* MainViewController.swift */,
+				95FB0AD31DF705B300E93446 /* IntroViewController.swift */,
+			);
+			name = Startup;
+			sourceTree = "<group>";
+		};
+		951DEFD11DF6F26900AF4C3F /* Intro Cells */ = {
+			isa = PBXGroup;
+			children = (
+				951DEFD21DF6F28800AF4C3F /* IntroCell1.swift */,
+				951DEFD31DF6F28800AF4C3F /* IntroCell1.xib */,
+				951DEFD61DF6FC1200AF4C3F /* IntroCell2.swift */,
+				951DEFD71DF6FC1200AF4C3F /* IntroCell2.xib */,
+				951DEFDA1DF6FD9E00AF4C3F /* IntroCell3.swift */,
+				951DEFDB1DF6FD9E00AF4C3F /* IntroCell3.xib */,
+				951DEFDE1DF6FF6D00AF4C3F /* IntroCell4.swift */,
+				951DEFDF1DF6FF6D00AF4C3F /* IntroCell4.xib */,
+			);
+			name = "Intro Cells";
+			sourceTree = "<group>";
+		};
+		959DF9AE1DDB0514004209F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				959DF9AF1DDB0514004209F8 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95C7478F1DBB5D920031A9C9 = {
+			isa = PBXGroup;
+			children = (
+				95C7479A1DBB5D930031A9C9 /* Logolicious */,
+				95C747991DBB5D930031A9C9 /* Products */,
+				959DF9AE1DDB0514004209F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95C747991DBB5D930031A9C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95C747981DBB5D930031A9C9 /* Logolicious.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95C7479A1DBB5D930031A9C9 /* Logolicious */ = {
+			isa = PBXGroup;
+			children = (
+				951DEFD01DF6F25700AF4C3F /* Startup */,
+				950914311DDBC6E40056CBBD /* Slider */,
+				95E75D2F1DC24A0100A1ADCC /* Fonts */,
+				95C7479B1DBB5D930031A9C9 /* AppDelegate.swift */,
+				95C7479D1DBB5D930031A9C9 /* ViewController.swift */,
+				95C7479F1DBB5D930031A9C9 /* Main.storyboard */,
+				95C747A21DBB5D930031A9C9 /* Assets.xcassets */,
+				95C747A41DBB5D930031A9C9 /* LaunchScreen.storyboard */,
+				95C747A71DBB5D930031A9C9 /* Info.plist */,
+				95E75D271DC1EE7000A1ADCC /* OverlayImageView.swift */,
+				95E75D291DC20D2400A1ADCC /* OverlayLabel.swift */,
+				95E75D2B1DC241C100A1ADCC /* TextViewController.swift */,
+				953471101DCA0E6400D25EFD /* ColorPickerViewController.swift */,
+				953471111DCA0E6400D25EFD /* ColorPickerViewController.xib */,
+				95D8A9771DD70E76005B3E58 /* LogoLicious.xcdatamodeld */,
+				951922DE1DDB332D00D0363C /* MyTemplatesViewController.swift */,
+				951922DF1DDB332D00D0363C /* MyTemplatesViewController.xib */,
+				951922E21DDB34F600D0363C /* MyTemplatesCell.swift */,
+				951922E31DDB34F600D0363C /* MyTemplatesCell.xib */,
+				950914391DDBD2910056CBBD /* UIColorExtension.swift */,
+				9586775D1E0AB24E00080774 /* CropViewController.swift */,
+				9586775F1E0AF10000080774 /* SettingsViewController.swift */,
+			);
+			path = Logolicious;
+			sourceTree = "<group>";
+		};
+		95E75D2F1DC24A0100A1ADCC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				95E75D561DC24A3700A1ADCC /* Ansley Display-Light.ttf */,
+				95E75D571DC24A3700A1ADCC /* Ansley Display-Outline.ttf */,
+				95E75D581DC24A3700A1ADCC /* Ansley Display-Regular.ttf */,
+				95E75D591DC24A3700A1ADCC /* Cornerstone.ttf */,
+				95E75D5A1DC24A3700A1ADCC /* Display.ttf */,
+				95E75D5B1DC24A3700A1ADCC /* Hamurz Free Version.ttf */,
+				95E75D5C1DC24A3700A1ADCC /* Idolwild.ttf */,
+				95E75D5D1DC24A3700A1ADCC /* Lulo Clean 1.ttf */,
+				95E75D5E1DC24A3700A1ADCC /* Manteka.ttf */,
+				95E75D5F1DC24A3700A1ADCC /* Mosk Semi-Bold 600.ttf */,
+				95E75D601DC24A3700A1ADCC /* Mosk Thin 100.ttf */,
+				95E75D611DC24A3700A1ADCC /* Mosk Ultra-Bold 900.ttf */,
+				95E75D621DC24A3700A1ADCC /* Nexa Bold.otf */,
+				95E75D631DC24A3700A1ADCC /* Nexa Light.otf */,
+				95E75D641DC24A3700A1ADCC /* Oswald-Bold.ttf */,
+				95E75D651DC24A3700A1ADCC /* Oswald-ExtraLight.ttf */,
+				95E75D661DC24A3700A1ADCC /* Oswald-Regular.ttf */,
+				95E75D671DC24A3700A1ADCC /* Sign-handwriting.ttf */,
+				95E75D681DC24A3700A1ADCC /* Variane Script.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95C747971DBB5D920031A9C9 /* Logolicious */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C747AA1DBB5D930031A9C9 /* Build configuration list for PBXNativeTarget "Logolicious" */;
+			buildPhases = (
+				95C747941DBB5D920031A9C9 /* Sources */,
+				95C747951DBB5D920031A9C9 /* Frameworks */,
+				95C747961DBB5D920031A9C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Logolicious;
+			productName = Logolicious;
+			productReference = 95C747981DBB5D930031A9C9 /* Logolicious.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95C747901DBB5D920031A9C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Logolicious;
+				TargetAttributes = {
+					95C747971DBB5D920031A9C9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = QY32GEYNR5;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 95C747931DBB5D920031A9C9 /* Build configuration list for PBXProject "Logolicious" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95C7478F1DBB5D920031A9C9;
+			productRefGroup = 95C747991DBB5D930031A9C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95C747971DBB5D920031A9C9 /* Logolicious */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95C747961DBB5D920031A9C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C747A61DBB5D930031A9C9 /* LaunchScreen.storyboard in Resources */,
+				95E75D751DC24A3800A1ADCC /* Nexa Bold.otf in Resources */,
+				95E75D731DC24A3800A1ADCC /* Mosk Thin 100.ttf in Resources */,
+				951DEFE11DF6FF6D00AF4C3F /* IntroCell4.xib in Resources */,
+				95E75D7B1DC24A3800A1ADCC /* Variane Script.ttf in Resources */,
+				95E75D6B1DC24A3700A1ADCC /* Ansley Display-Regular.ttf in Resources */,
+				95E75D6F1DC24A3800A1ADCC /* Idolwild.ttf in Resources */,
+				95E75D771DC24A3800A1ADCC /* Oswald-Bold.ttf in Resources */,
+				951922E51DDB34F600D0363C /* MyTemplatesCell.xib in Resources */,
+				95E75D781DC24A3800A1ADCC /* Oswald-ExtraLight.ttf in Resources */,
+				95E75D741DC24A3800A1ADCC /* Mosk Ultra-Bold 900.ttf in Resources */,
+				95E75D6A1DC24A3700A1ADCC /* Ansley Display-Outline.ttf in Resources */,
+				951922E11DDB332D00D0363C /* MyTemplatesViewController.xib in Resources */,
+				951DEFD91DF6FC1200AF4C3F /* IntroCell2.xib in Resources */,
+				95E75D701DC24A3800A1ADCC /* Lulo Clean 1.ttf in Resources */,
+				95E75D6E1DC24A3800A1ADCC /* Hamurz Free Version.ttf in Resources */,
+				95C747A31DBB5D930031A9C9 /* Assets.xcassets in Resources */,
+				95E75D6C1DC24A3700A1ADCC /* Cornerstone.ttf in Resources */,
+				95E75D711DC24A3800A1ADCC /* Manteka.ttf in Resources */,
+				95E75D6D1DC24A3700A1ADCC /* Display.ttf in Resources */,
+				95E75D791DC24A3800A1ADCC /* Oswald-Regular.ttf in Resources */,
+				95E75D761DC24A3800A1ADCC /* Nexa Light.otf in Resources */,
+				95C747A11DBB5D930031A9C9 /* Main.storyboard in Resources */,
+				951DEFDD1DF6FD9E00AF4C3F /* IntroCell3.xib in Resources */,
+				95E75D721DC24A3800A1ADCC /* Mosk Semi-Bold 600.ttf in Resources */,
+				95E75D7A1DC24A3800A1ADCC /* Sign-handwriting.ttf in Resources */,
+				95E75D691DC24A3700A1ADCC /* Ansley Display-Light.ttf in Resources */,
+				951DEFD51DF6F28800AF4C3F /* IntroCell1.xib in Resources */,
+				953471131DCA0E6400D25EFD /* ColorPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95C747941DBB5D920031A9C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9586775E1E0AB24E00080774 /* CropViewController.swift in Sources */,
+				95E75D2C1DC241C100A1ADCC /* TextViewController.swift in Sources */,
+				950914371DDBC6F50056CBBD /* ASValuePopUpView.m in Sources */,
+				958677601E0AF10000080774 /* SettingsViewController.swift in Sources */,
+				95D8A9791DD70E76005B3E58 /* LogoLicious.xcdatamodeld in Sources */,
+				95C7479E1DBB5D930031A9C9 /* ViewController.swift in Sources */,
+				951922E41DDB34F600D0363C /* MyTemplatesCell.swift in Sources */,
+				953471121DCA0E6400D25EFD /* ColorPickerViewController.swift in Sources */,
+				951DEFD41DF6F28800AF4C3F /* IntroCell1.swift in Sources */,
+				951DEFE31DF7036500AF4C3F /* MainViewController.swift in Sources */,
+				95C7479C1DBB5D930031A9C9 /* AppDelegate.swift in Sources */,
+				95FB0AD41DF705B300E93446 /* IntroViewController.swift in Sources */,
+				95E75D281DC1EE7000A1ADCC /* OverlayImageView.swift in Sources */,
+				951DEFD81DF6FC1200AF4C3F /* IntroCell2.swift in Sources */,
+				951922E01DDB332D00D0363C /* MyTemplatesViewController.swift in Sources */,
+				951DEFE01DF6FF6D00AF4C3F /* IntroCell4.swift in Sources */,
+				951DEFDC1DF6FD9E00AF4C3F /* IntroCell3.swift in Sources */,
+				95E75D2A1DC20D2400A1ADCC /* OverlayLabel.swift in Sources */,
+				950914381DDBC6F50056CBBD /* ASValueTrackingSlider.m in Sources */,
+				9509143A1DDBD2910056CBBD /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95C7479F1DBB5D930031A9C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C747A01DBB5D930031A9C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95C747A41DBB5D930031A9C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C747A51DBB5D930031A9C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95C747A81DBB5D930031A9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95C747A91DBB5D930031A9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95C747AB1DBB5D930031A9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QY32GEYNR5;
+				INFOPLIST_FILE = Logolicious/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = logolicious.Logoliciouss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Logolicious/Logolicious-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		95C747AC1DBB5D930031A9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QY32GEYNR5;
+				INFOPLIST_FILE = Logolicious/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = logolicious.Logoliciouss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Logolicious/Logolicious-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95C747931DBB5D920031A9C9 /* Build configuration list for PBXProject "Logolicious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C747A81DBB5D930031A9C9 /* Debug */,
+				95C747A91DBB5D930031A9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C747AA1DBB5D930031A9C9 /* Build configuration list for PBXNativeTarget "Logolicious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C747AB1DBB5D930031A9C9 /* Debug */,
+				95C747AC1DBB5D930031A9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95D8A9771DD70E76005B3E58 /* LogoLicious.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95D8A9781DD70E76005B3E58 /* LogoLicious.xcdatamodel */,
+			);
+			currentVersion = 95D8A9781DD70E76005B3E58 /* LogoLicious.xcdatamodel */;
+			path = LogoLicious.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95C747901DBB5D920031A9C9 /* Project object */;
+}
